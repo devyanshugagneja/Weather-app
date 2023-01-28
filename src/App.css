@@ -1,0 +1,68 @@
+.weatherBg{
+  background-image: url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.weatherCity{
+  font-size: 35px;
+}
+.weatherTemp{
+  font-size: 55px;
+  font-weight: 700;
+}
+.weatherIcon{
+  height: 100px;
+  width: 100px;
+  margin-top: 2rem;
+}
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+
+}
+.text-heading{
+  font-weight: 700;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
