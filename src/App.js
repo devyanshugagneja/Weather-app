@@ -7,7 +7,7 @@ const [weather, setWeather] = useState({});
 const [cityInput, setCityInput] = useState(city);
 const updateWeather = async () => {
 if (!cityInput) return;
-let url =`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=cbafa7e44dbd7ac9f269f8a4455a2954`;
+let url =`https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid={'your api key'}`;
 let data = await fetch(url);
 let parsedData = await data.json();
 setWeather(parsedData);
